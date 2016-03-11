@@ -5,6 +5,8 @@ import ReactDom from 'react-dom';
 // import App from './JSX/App.jsx';
 // import App from './component/App.jsx';
 // import App2 from './component/App2.jsx';
-import App from './state/App.jsx';
+// import App from './state/App.jsx';
+// import App from './props/App.jsx';
+import DefaultPropsApp from './props/DefaultPropsApp.jsx';
 
-ReactDom.render(<App />, document.getElementById('app'));
+ReactDom.render(<DefaultPropsApp />, document.getElementById('app'));
