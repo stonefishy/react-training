@@ -8,6 +8,7 @@ import ReactDom from 'react-dom';
 // import App from './state/App.jsx';
 // import App from './props/App.jsx';
 // import DefaultPropsApp from './props/DefaultPropsApp.jsx';
-import StatePropsApp from './props/StatePropsApp.jsx';
+// import StatePropsApp from './props/StatePropsApp.jsx';
+import App from './validating_props/App.jsx';
 
-ReactDom.render(<StatePropsApp />, document.getElementById('app'));
+ReactDom.render(<App />, document.getElementById('app'));
