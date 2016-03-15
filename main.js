@@ -10,6 +10,7 @@ import ReactDom from 'react-dom';
 // import DefaultPropsApp from './props/DefaultPropsApp.jsx';
 // import StatePropsApp from './props/StatePropsApp.jsx';
 // import App from './validating_props/App.jsx';
-import App from './set_state/App.jsx';
+// import App from './set_state/App.jsx';
+import App from './force_update/App.jsx';
 
 ReactDom.render(<App />, document.getElementById('app'));
