@@ -12,6 +12,11 @@ import ReactDom from 'react-dom';
 // import App from './validating_props/App.jsx';
 // import App from './set_state/App.jsx';
 // import App from './force_update/App.jsx';
-import App from './react_dom/App.jsx';
+// import App from './react_dom/App.jsx';		
+import App from './component_lifecycle/App.jsx';
 
 ReactDom.render(<App />, document.getElementById('app'));
+
+setTimeout( () => {
+	ReactDom.unmountComponentAtNode(document.getElementById('app'));
+}, 10000);
