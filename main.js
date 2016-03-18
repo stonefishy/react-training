@@ -14,9 +14,10 @@ import ReactDom from 'react-dom';
 // import App from './force_update/App.jsx';
 // import App from './react_dom/App.jsx';		
 // import App from './component_lifecycle/App.jsx';
-import App from './form/App.jsx';
+// import App from './form/App.jsx';
+import ParentChildApp from './form/ParentChildApp.jsx';
 
-ReactDom.render(<App />, document.getElementById('app'));
+ReactDom.render(<ParentChildApp />, document.getElementById('app'));
 
 // setTimeout( () => {
 	// ReactDom.unmountComponentAtNode(document.getElementById('app'));
