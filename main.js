@@ -16,7 +16,8 @@ import ReactDom from 'react-dom';
 // import App from './component_lifecycle/App.jsx';
 // import App from './form/App.jsx';
 // import ParentChildApp from './form/ParentChildApp.jsx';
-import App from './events/App.jsx';
+// import App from './events/App.jsx';
+import App from './events/ChildApp.jsx';
 
 ReactDom.render(<App />, document.getElementById('app'));
 
