@@ -18,7 +18,8 @@ import ReactDom from 'react-dom';
 // import ParentChildApp from './form/ParentChildApp.jsx';
 // import App from './events/App.jsx';
 // import App from './events/ChildApp.jsx';
-import App from './refs/App.jsx';
+// import App from './refs/App.jsx';
+import App from './keys/App.jsx';
 
 ReactDom.render(<App />, document.getElementById('app'));
 
