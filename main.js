@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import {Router, Route, Link, IndexRoute, browserHistory} from 'react-router';
 
 // import App from './App.jsx';
 // import App from './JSX/App.jsx';
@@ -19,9 +20,24 @@ import ReactDom from 'react-dom';
 // import App from './events/App.jsx';
 // import App from './events/ChildApp.jsx';
 // import App from './refs/App.jsx';
-import App from './keys/App.jsx';
+// import App from './keys/App.jsx';
+import App from './router/App.jsx';
+import Home from './router/Home.jsx';
+import About from './router/About.jsx';
+import Contact from './router/Contact.jsx';
 
-ReactDom.render(<App />, document.getElementById('app'));
+// ReactDom.render(<App />, document.getElementById('app'));
+
+ReactDom.render((
+	<Router history={browserHistory}>
+		<Route path="/" component={App}>
+			<IndexRoute component={Home}/>
+			<Route path="home" component= {Home} />
+			<Route path="about" component={About}/>
+			<Route path="contact" component={Contact}/>
+		</Route>
+	</Router>
+	), document.getElementById('app'));
 
 // setTimeout( () => {
 	// ReactDom.unmountComponentAtNode(document.getElementById('app'));
