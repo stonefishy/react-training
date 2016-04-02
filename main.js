@@ -62,5 +62,9 @@ ReactDom.render(
 
 // react animation
 // import AppearApp from './animations/AppearApp.jsx';
-import EnterLeaveApp from './animations/EnterLeaveApp.jsx';
-ReactDom.render(<EnterLeaveApp />, document.getElementById('app'));
+// import EnterLeaveApp from './animations/EnterLeaveApp.jsx';
+// ReactDom.render(<EnterLeaveApp />, document.getElementById('app'));
+
+// Higher Order Components
+import MyHOC from './HOC/MyHOC.jsx';
+ReactDom.render(<MyHOC />, document.getElementById('app'));
