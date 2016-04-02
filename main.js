@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import ReactDom from 'react-dom';
 // import {Router, Route, Link, IndexRoute, browserHistory} from 'react-router';
 
@@ -45,7 +45,7 @@ import ReactDom from 'react-dom';
 
 
 // react-redux
-import {createStore} from 'redux';
+/*import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 
 import App from './flux/App.jsx';
@@ -58,3 +58,8 @@ ReactDom.render(
 		<App />
 	</Provider>
 , document.getElementById('app'));
+*/
+
+// react animation
+import AppearApp from './animations/AppearApp.jsx';
+ReactDom.render(<AppearApp />, document.getElementById('app'));
