@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import ReactDom from 'react-dom';
 // import {Router, Route, Link, IndexRoute, browserHistory} from 'react-router';
 
@@ -61,5 +61,6 @@ ReactDom.render(
 */
 
 // react animation
-import AppearApp from './animations/AppearApp.jsx';
-ReactDom.render(<AppearApp />, document.getElementById('app'));
+// import AppearApp from './animations/AppearApp.jsx';
+import EnterLeaveApp from './animations/EnterLeaveApp.jsx';
+ReactDom.render(<EnterLeaveApp />, document.getElementById('app'));
